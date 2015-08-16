@@ -11,7 +11,9 @@ function processFlags(commandArgs) {
     var flags = command.args
 }
 var helpMenu = {
-    help: "terminal commands: \n help     show this menu \n ping     connect with another computer via IP address on the network",
+    help:   "terminal commands: \n" +
+            " help     show this menu \n" +
+            " ping     connect with another computer via IP address on the network",
     ping: "Connect with another device via IP address"
 }
 $('#terminal').terminal( function(args, term){
