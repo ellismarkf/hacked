@@ -25,6 +25,6 @@ $('#terminal').terminal( function(args, term){
     name: 'main-window',
     history: true,
     height: 500,
-    width: 400,
+    width: 800,
     checkArity: false
 });
